@@ -26,6 +26,7 @@ const FinalForm = () =>
     const [ button, setButton ] = useState( "Submit" );
     const [ emailSendingUrl, setEmailUrl ] = useState( "" );
     const navigate = useNavigate();
+    const [disabled,setDisabled]=useState("")
     useEffect( () =>
     {
         const data = JSON.parse( localStorage.getItem( "User" ) );
@@ -129,6 +130,7 @@ const FinalForm = () =>
     };
     const Submit = async () =>
     {
+        setButton("Please wait ...")
         let data = JSON.parse( localStorage.getItem( "User" ) );
         if ( data && fullName!="" && email!="" && phoneNumber!="" )
         {
@@ -166,7 +168,7 @@ const FinalForm = () =>
                 navigate( "/firstForm" );    
             }
         }
-        // console.log( result );
+        console.log( result );
     };
     return (
         <div className='flex min-h-screen flex-col items-center gap-4 tracking-widest overflow-x-hidden mb-8 mt-8'>
