@@ -127,6 +127,19 @@ const privacyPolicyContent = [
             "In its sole discretion, walkintubquotes.com may transfer, sell or assign your personal information collected on and through this website to one or more third parties, as a result of the sale, merger, consolidation, change in control, transfer of substantial assets, reorganization or liquidation of walkintubquotes.com."
     }
 ];
+const contentArray = [
+  "Explore the benefits of joining our network of Walk-In Tub Quotes.",
+  "Gain access to a wide network of potential customers seeking walk-in tub quotes.",
+  "Get valuable leads and increase your business opportunities.",
+  "Connect with customers looking for reliable walk-in tub providers in their area.",
+  "Maximize your visibility and enhance your reach in the walk-in tub market.",
+  "Join a platform dedicated to assisting individuals in finding the best walk-in tub solutions.",
+  "Receive qualified leads that match your expertise and services.",
+  "Participate in a network designed to streamline the process of connecting buyers with trusted walk-in tub providers.",
+  "Stay ahead in the competitive market by joining a network that prioritizes customer satisfaction.",
+  "Become a part of a community committed to improving accessibility and safety through walk-in tub installations.",
+  "Experience the advantages of joining our network and contribute to making homes more accessible for everyone."
+];
 const termsAndConditionsArray = [
     "The content of the pages of walkintubquotes.com is for your general information and use only. It is subject to change without notice.",
     "Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on walkintubquotes.com for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.",
@@ -140,6 +153,6 @@ const termsAndConditionsArray = [
     "walkintubquotes.com is a free service to assist homeowners in connecting with local service providers. All contractors/providers are independent and walkintubquotes.com does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on walkintubquotes.com."
 ];
 
-export { termsAndConditionsArray, privacyPolicyContent };
+export { termsAndConditionsArray, privacyPolicyContent,contentArray };
 
 export default arrayPartners;
